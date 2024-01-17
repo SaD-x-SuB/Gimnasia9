@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/styleMedia.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
@@ -22,16 +23,20 @@
     <div class = 'textBlock'>
 
         <div class = 'headerText'>
-            <h1 class="h1" style = "color: #fff">Гимназия </h1><h1 class="h1" style ='color: #ff6a00'>№9</h1>
+            <h1 class="h1" style = "color: #fff">Гимназия </h1>
+            <br class="mediabr">
+            <h1 class="h1" style ='color: #ff6a00'>№9</h1>
         </div>
 
         <div class = 'headerText'>
             <h2 class="h2" style = "color: #fff" >Школа-</h2>
+            <br class="mediabr">
             <h2 class="h2" style ='color: #fff' >флагман</h2>
         </div>
 
         <div class = 'headerText'>
             <h2 class="h2" style = "color: #fff">г. </h2>
+
             <h2 class="h2" style ='color: #fff' >Королёв</h2>
         </div>
 
@@ -41,7 +46,7 @@
 
 <main class="mainMain">
 
-    <article id="aboutSchool1" class="aboutArt" style="position: relative; left:-10%;">
+    <article id="aboutSchool1" class="aboutArt one" style="position: relative; ">
 
         <div class="about" style="background-image: url('https://avatars.mds.yandex.net/get-altay/5456504/2a0000017d6549b9a0f8c1681a212a584a38/XXXL');"></div>
 
@@ -67,7 +72,7 @@
     </article>
 
 
-    <article id="aboutSchool2" class="aboutArt" style="position: relative; left:10%;">
+    <article id="aboutSchool2" class="aboutArt two" style="position: relative;">
 
         <div class="about">
                             <p>МАОУ "Гимназия №9". <br>
@@ -108,16 +113,16 @@
 
     <article id="aboutTeachers" class="aboutPed">
 
-        <div class="pedwidimg" style="background-image: url('../files/pedimgs/ped6.jpg'); background-position:center; "></div>
+        <div class="pedwidimg" style="background-image: url('../files/pedimgs/ped6.jpg');  "></div>
 
         <div class="pedkvrow">
-            <div class="pedkvimg" style="background-image:url('../files/pedimgs/ped8.jpg');background-size:cover;background-position:center;"></div>
-            <div class="pedkvimg" style="background-image:url('../files/pedimgs/ped7.jpg');background-size:cover;background-position:center;"></div>
-            <div class="pedkvimg" style="background-image:url('../files/pedimgs/ped9.jpg');background-size:cover;background-position:center;" ></div>
+            <div class="pedkvimg" style="background-image:url('../files/pedimgs/ped8.jpg');"></div>
+            <div class="pedkvimg" style="background-image:url('../files/pedimgs/ped7.jpg');"></div>
+            <div class="pedkvimg" style="background-image:url('../files/pedimgs/ped9.jpg');" ></div>
         </div>
 
         <div class="about text ped">
-            <h1 >Наши педагоги</h1>
+            <h1 style="margin:0px">Наши педагоги</h1>
         </div>
 
     </article>
@@ -129,9 +134,9 @@
             <figure>
                 <a href="#us" class="close"></a>
                 <figcaption>
-                    <img src='files/gallery/gal-col (1).jpg' > <br>
-                    <img src='files/gallery/gal-col (2).jpg' > <br>
-                    <img src='files/gallery/gal-col (3).jpg' >
+                    <img class = 'gallaryCollage' src='files/gallery/gal-col (1).jpg' > <br>
+                    <img class = 'gallaryCollage' src='files/gallery/gal-col (2).jpg' > <br>
+                    <img class = 'gallaryCollage' src='files/gallery/gal-col (3).jpg' >
                 </figcaption>
             </figure>
         </div>
@@ -169,7 +174,7 @@
             </p>
         </a>
 
-        <div style="display:flex;  align-items:center;text-shadow: 1px 1px 2px black;color: #fff">
+        <div class = "numbers">
 
             <a class ="sideText" style="color: #fff" href="mailto:krlv_g9@mosreg.ru">krlv_g9@mosreg.ru</a>
             <p class="sideText">+7 (495) 519-58-57</p>
