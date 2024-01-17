@@ -1,0 +1,289 @@
+body{
+padding: 0px;
+margin: 0px;
+display:flex;
+flex-direction: column;
+align-items:center;
+font-family: 'Merriweather', sans-serif;
+}
+.mainHeader{
+vertical-align: center;
+margin: 0px;
+background-image: url('../files/fasad.png');
+width: 100%;
+height: 80vh;
+background-size: cover;
+background-attachment: fixed;
+
+}
+.mainHeader:hover{
+}
+
+.h1{
+    font-size:70px;
+    display: inline;
+}
+.h2{
+    font-size:60px;
+    display: inline;
+}
+.headerText{
+display: block;
+margin:20px;
+}
+.textBlock{
+height: 100%;
+margin: 0px;
+padding:60px;
+border: 2px solid;
+background-color: #737373a4;
+text-shadow: 1px 1px 2px black;
+color:#0d0d0dfd;
+text-align: center;
+
+}
+.mainMain{
+background: linear-gradient(180deg, rgba(255, 255, 255,255), rgb(255, 146, 0));;
+color:#4f4f4f;
+text-shadow: 1px 1px 1px #ffddc4;
+font-size:default;
+width:100%;
+
+display:flex;
+flex-direction: column;
+align-items:center;
+
+}
+.galleryIMG{
+display:block;
+width:300px;
+height:300px;
+background-image: url('../files/MyCollages.png');
+background-size:cover;
+transition: 0.5s;
+}
+.galleryIMG:hover{
+    width:310px;
+    height:310px;
+}
+.galleryIMG.h:hover{
+
+font-size:50px;
+
+}
+
+.aboutArt{
+height:50vh;
+width: 80%;
+margin: 10px;
+padding: 0px;
+background-color:#ffffffc0;
+transition: 0.5s,easy-out,0.5s;
+display:flex;
+align-items:center;
+}
+.aboutArt:hover{
+width: 80%;
+
+background-color:#3030309d;
+color: #ebebeb;
+text-shadow: 0px 0px 0px #ffddc4;
+font-size:18px;
+
+}
+.aboutArt.img{
+width: 100%;
+}
+.aboutArt.img:hover{
+height:50vh;
+width: 100%;
+margin: 10px;
+padding: 0px;
+background-color:#ffffffc0;
+transition: 0.5s,easy-out,0.5s;
+display:flex;
+align-items:center;
+
+}
+/* Закрываем lightbox */
+.gallery {
+  display: none;
+
+}
+
+/* Открываем lightbox */
+.gallery:target {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Содержимое lightbox  */
+.gallery figcaption {
+  width: auto;
+  position: relative;
+  padding: 1.5em;
+  background-color:#ff6a00a1;
+}
+
+/* Кнопка закрытия */
+.gallery .close {
+  position: relative;
+  display: block;
+}
+
+.gallery .close::after {
+  right: -1rem;
+  top: -1rem;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  content: "×";
+  cursor: pointer;
+}
+
+/* Обёртка lightbox  */
+.gallery .close::before {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  cursor: default;
+}
+
+
+
+.about{
+height:90%;
+width: 50%;
+margin: 10px;
+background-size:cover;
+transition: 0.5s,easy-out,0.5s;
+
+}
+
+.about:hover{
+height:90%;
+width: 60%;
+margin: 10px;
+background-size:cover;
+transition: 0.5s,easy-out,0.5s;
+
+}
+
+.about.img:hover{
+height:95%;
+width: 50%;
+margin: 10px;
+background-size:cover;
+}
+
+.about.text{
+background-image: none;}
+
+.tgbutton{
+display:block;
+font-size:16px;
+font-weight:500;
+text-align:center;
+border-radius:8px;
+padding:5px;
+background:#389ce9;
+text-decoration:none;
+color:#fff;
+
+}
+.direktor{
+margin-top:50px;
+display: inline-block;
+border-radius: 50%;
+overflow: hidden;
+width: 300px;
+height: 300px;
+}
+
+.aboutPed{
+height:100vh;
+width: 80%;
+margin: 10px;
+padding: 0px;
+background-color:#ffffffc0;
+display:flex;
+align-items:center;
+flex-direction:column;
+justify-content: center;
+
+}
+.sideText{
+margin: 15px;
+font-size:30px;
+}
+
+.about.ped{
+background-size:cover;
+background-image: url("../files/ped-collage.jpg");
+height: 90%;
+width: 90%;
+transition: 0.5s,easy-out,0.5s;
+}
+.about.ped:hover{
+height: 95%;
+width: 95%;
+}
+.tgframe{
+border:0px;height:500px;width:500px;margin:30px;box-shadow: 0 0 16px 3px rgba(0,0,0,.2);
+}
+.about.text.ped{
+margin:10px;
+background-image: none;
+height: 5%;
+text-align:center;
+}
+.pedwidimg{
+transition: 0.5s,easy-out,0.5s;
+width:90%;
+height:50%;
+margin:10px;
+}
+.pedkvrow{
+width:90%;
+height:45%;
+display:flex;
+flex-direction:row;
+align-items: center;
+justify-content:center;
+}
+.pedwidimg:hover{
+width:95%;
+height:80%;
+
+margin:10px;
+}
+.pedkvimg{
+transition: 0.5s,easy-out,0.5s;
+width:33%;
+height:100%;
+
+margin:10px;
+}
+.pedkvimg:hover{
+width:50%;
+height:100%;
+
+margin:10px;
+}
